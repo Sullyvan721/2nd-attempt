@@ -35,8 +35,9 @@ ul {
 .links {
   margin-left: 14rem;
 }
-ul > li {
+li {
   display: flex;
+  gap: 2rem;
 }
 a {
   padding: 0;
@@ -67,21 +68,28 @@ a {
 }
 .text > button {
   background-color: #3882f6;
+  max-width: 25%;
+  min-width: 15%;
+  margin: auto;
+  margin-top: 1rem;
+  color: #e5e7eb;
 }
 .hero h1 {
   font-size: 3rem;
   font-weight: 800;
   color: #f9faf8;
 }
+.btn {
+  border-radius: 0.5rem;
+  padding: 0.9em 1em;
+}
 
 .hero > img {
-  width: 100%;
-  height: auto;
   border-radius: 8px;
   object-fit: cover;
 }
 .img1 {
-  max-width: 35%;
+  max-width: 25%;
   margin-left: 4rem;
 }
 /* CARD SECTION */
@@ -91,14 +99,13 @@ a {
 }
 
 .card > img {
-  width: 100%;
-  height: auto;
+  max-width: 100%;
   border-radius: 8px;
   object-fit: cover;
 }
 .card {
   padding: 2rem;
-  max-width: 20%;
+  max-width: 50%;
 }
 
 /* QUOTE SECTION */
@@ -115,12 +122,23 @@ a {
   display: flex;
   background-color: #3882f6;
   justify-content: center;
+  padding: 2rem;
+  margin: 5rem 16rem;
+  border-radius: 0.5rem;
 }
-
+.last-inner {
+  font-size: 1.125rem;
+  color: #e5e7eb;
+}
 .last-section > button {
   margin-left: 2rem;
+  border: 1px solid;
+  background-color: #3882f6;
+  color: #e5e7eb;
 }
 /* FOOTER AREA */
 .footer {
   background-color: #1f2937;
+  padding: 2rem;
+  color: #e5e7eb;
 }
